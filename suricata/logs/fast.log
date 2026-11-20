@@ -1,0 +1,5 @@
+11/14/2026-08:19:27.508828  [**] [1:1000001:1] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.103:51143 -> 192.168.1.10:143
+11/14/2026-09:50:35.073414  [**] [1:1000002:1] NetSentinel - Possible UDP Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {UDP} 192.168.1.150:40020 -> 192.168.1.10:1020
+11/14/2026-10:18:48.425572  [**] [1:1000003:1] NetSentinel - Possible ICMP Flood [**] [Classification: Attempted Denial of Service] [Priority: 2] {ICMP} 192.168.1.160:8 -> 192.168.1.10:0
+11/14/2026-10:18:48.446414  [**] [1:1000003:1] NetSentinel - Possible ICMP Flood [**] [Classification: Attempted Denial of Service] [Priority: 2] {ICMP} 192.168.1.160:8 -> 192.168.1.10:0
+11/14/2026-10:50:45.577760  [**] [1:1000004:1] NetSentinel - Suspiciously Long DNS Query [**] [Classification: (null)] [Priority: 3] {UDP} 192.168.1.170:53001 -> 8.8.8.8:53

@@ -1,0 +1,1 @@
+11/14/2026-09:50:35.073414  [**] [1:1000002:2] NetSentinel - Possible UDP Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {UDP} 192.168.1.150:40021 -> 192.168.1.10:1021

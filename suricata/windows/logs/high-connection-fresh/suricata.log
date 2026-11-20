@@ -1,0 +1,20 @@
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Notice: suricata: This is Suricata version 8.0.8 RELEASE running in USER mode
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Info: cpu: CPUs/cores online: 16
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Notice: runmodes: thread stack size of 0 too small: setting to 512k
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Info: suricata: Setting engine mode to IDS mode by default
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Info: exception-policy: master exception-policy set to: auto
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Info: coredump-config: Configuring core dump is not yet supported on Windows.
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Info: logopenfile: fast output device (regular) initialized: fast.log
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Info: logopenfile: stats output device (regular) initialized: stats.log
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Info: detect: 1 rule files processed. 6 rules successfully loaded, 0 rules failed, 0 rules skipped
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Warning: threshold-config: Error opening file: "C:\Program Files\Suricata\\\threshold.config": No such file or directory
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Info: detect: 6 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 3 inspect application layer, 0 are decoder event only
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Warning: suricata: setrlimit unavailable.
+[31416 - RX#01] 2026-11-20 14:39:40 Info: pcap: Starting file run for .\sample-data\high_connection_rate_test.pcap
+[31416 - RX#01] 2026-11-20 14:39:40 Info: pcap: pcap file .\sample-data\high_connection_rate_test.pcap end of file reached (pcap err code 0)
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Notice: threads: Threads created -> RX: 1 W: 16 FM: 1 FR: 1   Engine started.
+[32148 - Suricata-Main] 2026-11-20 14:39:40 Notice: suricata: Signal Received.  Stopping engine.
+[32148 - Suricata-Main] 2026-11-20 14:39:41 Info: suricata: time elapsed 0.945s
+[31416 - RX#01] 2026-11-20 14:39:41 Notice: pcap: read 1 file, 110 packets, 5940 bytes
+[32148 - Suricata-Main] 2026-11-20 14:39:41 Info: counters: Alerts: 11

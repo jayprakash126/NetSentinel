@@ -1,0 +1,10 @@
+11/14/2026-17:39:11.704444  [**] [1:1000001:1] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.11.16.193:55919 -> 20.42.65.95:443
+11/14/2026-17:39:15.756952  [**] [1:1000001:1] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.11.16.193:63955 -> 10.11.16.69:53
+11/14/2026-17:39:44.629546  [**] [1:1000002:2] NetSentinel - Possible UDP Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {UDP} 10.11.16.193:1900 -> 239.255.255.250:1900
+11/14/2026-17:40:06.847951  [**] [1:1000001:1] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.11.16.193:64603 -> 184.86.248.210:443
+11/14/2026-17:40:46.466615  [**] [1:1000001:1] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.11.16.193:49955 -> 10.11.16.69:53
+11/14/2026-17:41:02.558589  [**] [1:1000001:1] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 10.11.16.193:54173 -> 10.11.16.69:53
+11/19/2026-21:36:38.280550  [**] [1:1000006:1] NetSentinel - SQL Injection OR 1=1 [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 192.0.2.10:45002 -> 198.51.100.20:80
+11/19/2026-21:36:38.280550  [**] [1:1000005:1] NetSentinel - SQL Injection UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 192.0.2.10:45001 -> 198.51.100.20:80
+11/19/2026-21:36:38.280550  [**] [1:1000006:1] NetSentinel - SQL Injection OR 1=1 [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 192.0.2.10:45002 -> 198.51.100.20:80
+11/19/2026-21:36:38.280550  [**] [1:1000005:1] NetSentinel - SQL Injection UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 192.0.2.10:45001 -> 198.51.100.20:80

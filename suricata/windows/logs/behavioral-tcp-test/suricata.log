@@ -1,0 +1,20 @@
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Notice: suricata: This is Suricata version 8.0.8 RELEASE running in USER mode
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Info: cpu: CPUs/cores online: 16
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Notice: runmodes: thread stack size of 0 too small: setting to 512k
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Info: suricata: Setting engine mode to IDS mode by default
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Info: exception-policy: master exception-policy set to: auto
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Info: coredump-config: Configuring core dump is not yet supported on Windows.
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Info: logopenfile: fast output device (regular) initialized: fast.log
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Info: logopenfile: stats output device (regular) initialized: stats.log
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Info: detect: 1 rule files processed. 6 rules successfully loaded, 0 rules failed, 0 rules skipped
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Warning: threshold-config: Error opening file: "C:\Program Files\Suricata\\\threshold.config": No such file or directory
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Info: detect: 6 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 3 inspect application layer, 0 are decoder event only
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Warning: suricata: setrlimit unavailable.
+[29376 - RX#01] 2026-11-20 14:08:18 Info: pcap: Starting file run for .\sample-data\port_scan_test_4.pcap
+[29376 - RX#01] 2026-11-20 14:08:18 Info: pcap: pcap file .\sample-data\port_scan_test_4.pcap end of file reached (pcap err code 0)
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Notice: threads: Threads created -> RX: 1 W: 16 FM: 1 FR: 1   Engine started.
+[28692 - Suricata-Main] 2026-11-20 14:08:18 Notice: suricata: Signal Received.  Stopping engine.
+[28692 - Suricata-Main] 2026-11-20 14:08:19 Info: suricata: time elapsed 0.967s
+[29376 - RX#01] 2026-11-20 14:08:19 Notice: pcap: read 1 file, 15 packets, 810 bytes
+[28692 - Suricata-Main] 2026-11-20 14:08:19 Info: counters: Alerts: 1

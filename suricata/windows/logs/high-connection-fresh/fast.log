@@ -1,0 +1,11 @@
+11/20/2026-14:39:28.601519  [**] [1:1000001:2] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.180:40012 -> 192.168.1.10:20012
+11/20/2026-14:39:28.603528  [**] [1:1000001:2] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.180:40023 -> 192.168.1.10:20023
+11/20/2026-14:39:28.606531  [**] [1:1000001:2] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.180:40044 -> 192.168.1.10:20044
+11/20/2026-14:39:28.612946  [**] [1:1000001:2] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.180:40085 -> 192.168.1.10:20085
+11/20/2026-14:39:28.605534  [**] [1:1000001:2] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.180:40040 -> 192.168.1.10:20040
+11/20/2026-14:39:28.615303  [**] [1:1000001:2] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.180:40105 -> 192.168.1.10:20105
+11/20/2026-14:39:28.604528  [**] [1:1000001:2] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.180:40035 -> 192.168.1.10:20035
+11/20/2026-14:39:28.609528  [**] [1:1000001:2] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.180:40061 -> 192.168.1.10:20061
+11/20/2026-14:39:28.608527  [**] [1:1000001:2] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.180:40058 -> 192.168.1.10:20058
+11/20/2026-14:39:28.606531  [**] [1:1000001:2] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.180:40048 -> 192.168.1.10:20048
+11/20/2026-14:39:28.615303  [**] [1:1000001:2] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.180:40101 -> 192.168.1.10:20101

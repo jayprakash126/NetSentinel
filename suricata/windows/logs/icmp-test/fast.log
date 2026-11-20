@@ -1,0 +1,2 @@
+11/14/2026-15:48:48.425572  [**] [1:1000003:2] NetSentinel - Possible ICMP Echo Flood [**] [Classification: Attempted Denial of Service] [Priority: 2] {ICMP} 192.168.1.160:8 -> 192.168.1.10:0
+11/14/2026-15:48:48.446414  [**] [1:1000003:2] NetSentinel - Possible ICMP Echo Flood [**] [Classification: Attempted Denial of Service] [Priority: 2] {ICMP} 192.168.1.160:8 -> 192.168.1.10:0
