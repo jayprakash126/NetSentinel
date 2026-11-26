@@ -1,0 +1,1 @@
+11/13/2026-18:47:52.411080  [**] [1:1000001:2] NetSentinel - Possible TCP SYN Port Scan [**] [Classification: Attempted Information Leak] [Priority: 2] {TCP} 192.168.1.100:50025 -> 192.168.1.10:25

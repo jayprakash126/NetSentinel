@@ -40,7 +40,7 @@ const getSeverityLabel = (level) => {
   return "Unknown";
 };
 
-function AnalyticsDashboard() {
+function AnalyticsDashboard({ refreshKey })  {
   const [overview, setOverview] = useState(null);
   const [protocols, setProtocols] = useState([]);
   const [severity, setSeverity] = useState([]);
@@ -89,8 +89,8 @@ function AnalyticsDashboard() {
   };
 
   useEffect(() => {
-    fetchAnalytics();
-  }, []);
+  fetchAnalytics();
+}, [refreshKey]);
 
   const formatHour = (value) => {
     return new Date(value).toLocaleTimeString([], {
@@ -156,12 +156,12 @@ function AnalyticsDashboard() {
       icon: Network,
       color: "text-red-400",
     },
-    {
-      title: "Resolved Alerts",
-      value: overview.status?.resolved ?? 0,
-      icon: CheckCircle,
-      color: "text-green-400",
-    },
+    // {
+    //   title: "Resolved Alerts",
+    //   value: overview.status?.resolved ?? 0,
+    //   icon: CheckCircle,
+    //   color: "text-green-400",
+    // },
   ];
 
   return (

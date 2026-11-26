@@ -30,6 +30,7 @@ const MONITORING_URL = "http://localhost:5000/api/monitoring";
 
 function App() {
   const [activePage, setActivePage] = useState("Dashboard");
+  const [analyticsRefreshKey, setAnalyticsRefreshKey] = useState(0);
   const [alerts, setAlerts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -109,16 +110,22 @@ function App() {
     const socket = io("http://localhost:5000");
 
     const handleNewAlert = (newAlert) => {
-      setAlerts((previousAlerts) => {
-        const exists = previousAlerts.some(
-          (alert) => alert.id === newAlert.id
-        );
+  setAlerts((previousAlerts) => {
+    const exists = previousAlerts.some(
+      (alert) => alert.id === newAlert.id
+    );
 
-        return exists
-          ? previousAlerts
-          : [newAlert, ...previousAlerts];
-      });
-    };
+    return exists
+      ? previousAlerts
+      : [newAlert, ...previousAlerts];
+  });
+
+  setAnalyticsRefreshKey((current) => current + 1);
+};
+
+const handleNewNetworkEvent = () => {
+  setAnalyticsRefreshKey((current) => current + 1);
+};
 
     socket.on("connect", () => setBackendConnected(true));
     socket.on("disconnect", () => setBackendConnected(false));
@@ -129,9 +136,11 @@ function App() {
     });
 
     socket.on("alert:new", handleNewAlert);
+    socket.on("network_event:new", handleNewNetworkEvent);
 
     return () => {
       socket.off("alert:new", handleNewAlert);
+      socket.off("network_event:new", handleNewNetworkEvent);
       socket.disconnect();
     };
   }, []);
@@ -323,7 +332,7 @@ function App() {
           {/* DASHBOARD PAGE */}
           {activePage === "Dashboard" && (
             <>
-              <AnalyticsDashboard />
+              <AnalyticsDashboard refreshKey={analyticsRefreshKey} />
 
               <section className="panel">
                 <div className="panel-header">
@@ -528,7 +537,7 @@ function App() {
                             <th>Severity</th>
                             <th>Status</th>
                             <th>Detected At</th>
-                            <th>Actions</th>
+                            {/* <th>Actions</th> */}
                           </tr>
                         </thead>
 
@@ -562,7 +571,7 @@ function App() {
 
                               <td>
                                 <div className="alert-actions flex flex-wrap items-center gap-2">
-                                  {alert.status === "new" && (
+                                  {/* {alert.status === "new" && (
                                     <button
                                       className="acknowledge-button"
                                       disabled={updatingAlert === alert.id}
@@ -577,9 +586,9 @@ function App() {
                                         ? "Updating..."
                                         : "Acknowledge"}
                                     </button>
-                                  )}
+                                  )} */}
 
-                                  {alert.status !== "resolved" && (
+                                  {/* {alert.status !== "resolved" && (
                                     <button
                                       className="resolve-button"
                                       disabled={updatingAlert === alert.id}
@@ -594,13 +603,13 @@ function App() {
                                         ? "Updating..."
                                         : "Resolve"}
                                     </button>
-                                  )}
+                                  )} */}
 
-                                  {alert.status === "resolved" && (
+                                  {/* {alert.status === "resolved" && (
                                     <span className="resolved-label">
                                       Completed
                                     </span>
-                                  )}
+                                  )} */}
                                 </div>
                               </td>
                             </tr>

@@ -1,0 +1,21 @@
+[36916 - Suricata-Main] 2026-11-20 22:24:25 Notice: suricata: This is Suricata version 8.0.8 RELEASE running in USER mode
+[36916 - Suricata-Main] 2026-11-20 22:24:25 Info: cpu: CPUs/cores online: 16
+[36916 - Suricata-Main] 2026-11-20 22:24:25 Notice: runmodes: thread stack size of 0 too small: setting to 512k
+[36916 - Suricata-Main] 2026-11-20 22:24:25 Info: suricata: Setting engine mode to IDS mode by default
+[36916 - Suricata-Main] 2026-11-20 22:24:25 Info: exception-policy: master exception-policy set to: auto
+[36916 - Suricata-Main] 2026-11-20 22:24:25 Info: coredump-config: Configuring core dump is not yet supported on Windows.
+[36916 - Suricata-Main] 2026-11-20 22:24:25 Info: logopenfile: fast output device (regular) initialized: fast.log
+[36916 - Suricata-Main] 2026-11-20 22:24:25 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[36916 - Suricata-Main] 2026-11-20 22:24:25 Info: logopenfile: stats output device (regular) initialized: stats.log
+[36916 - Suricata-Main] 2026-11-20 22:24:25 Info: detect: 1 rule files processed. 6 rules successfully loaded, 0 rules failed, 0 rules skipped
+[36916 - Suricata-Main] 2026-11-20 22:24:25 Warning: threshold-config: Error opening file: "C:\Program Files\Suricata\\\threshold.config": No such file or directory
+[36916 - Suricata-Main] 2026-11-20 22:24:25 Info: detect: 6 signatures processed. 1 are IP-only rules, 0 are inspecting packet payload, 3 inspect application layer, 0 are decoder event only
+[36916 - Suricata-Main] 2026-11-20 22:24:26 Warning: suricata: setrlimit unavailable.
+[3088 - RX#01] 2026-11-20 22:24:26 Info: pcap: Starting file run for C:\Users\cse12\NetSentinel\sample-data\external-datasets\CIC-IDS2017\processed\sql-injection\attack.pcap
+[3088 - RX#01] 2026-11-20 22:24:26 Info: pcap: pcap file C:\Users\cse12\NetSentinel\sample-data\external-datasets\CIC-IDS2017\processed\sql-injection\attack.pcap end of file reached (pcap err code 0)
+[36916 - Suricata-Main] 2026-11-20 22:24:26 Notice: threads: Threads created -> RX: 1 W: 16 FM: 1 FR: 1   Engine started.
+[36916 - Suricata-Main] 2026-11-20 22:24:26 Notice: suricata: Signal Received.  Stopping engine.
+[36916 - Suricata-Main] 2026-11-20 22:24:27 Info: suricata: time elapsed 1.254s
+[3088 - RX#01] 2026-11-20 22:24:27 Warning: pcap: 1/7th of packets have an invalid checksum, consider setting pcap-file.checksum-checks variable to no or use '-k none' option on command line.
+[3088 - RX#01] 2026-11-20 22:24:27 Notice: pcap: read 1 file, 390 packets, 162166 bytes
+[36916 - Suricata-Main] 2026-11-20 22:24:27 Info: counters: Alerts: 9

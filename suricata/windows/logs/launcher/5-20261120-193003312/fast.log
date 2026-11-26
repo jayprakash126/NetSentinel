@@ -1,0 +1,2 @@
+11/19/2026-21:36:38.280550  [**] [1:1000006:1] NetSentinel - SQL Injection OR 1=1 [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 192.0.2.10:45002 -> 198.51.100.20:80
+11/19/2026-21:36:38.280550  [**] [1:1000005:1] NetSentinel - SQL Injection UNION SELECT [**] [Classification: Web Application Attack] [Priority: 1] {TCP} 192.0.2.10:45001 -> 198.51.100.20:80
